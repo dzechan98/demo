@@ -1,0 +1,54 @@
+.left-to-right {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 1s;
+}
+.left-to-right.start {
+  opacity: 1;
+  transform: translateX(0);
+}
+.right-to-left {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: 1s;
+}
+.right-to-left.start {
+  opacity: 1;
+  transform: translateX(0);
+}
+.top-to-bottom {
+  opacity: 0;
+  transform: translateY(-200%);
+  transition: 1s;
+}
+.top-to-bottom.start {
+  opacity: 1;
+  transform: translateY(0);
+}
+.bottom-to-top {
+  opacity: 0;
+  transform: translateY(200%);
+  transition: 1s;
+}
+.bottom-to-top.start {
+  opacity: 1;
+  transform: translateY(0);
+}
+.zoom-animation {
+  opacity: 0;
+  transform: scale(0);
+  transition: 1s;
+}
+.zoom-animation.start {
+  opacity: 1;
+  transform: scale(1);
+}
+.scale-animation {
+  opacity: 0;
+  transform: scaleX(-1);
+  transition: 1s;
+}
+.scale-animation.start {
+  opacity: 1;
+  transform: scaleX(1);
+}
